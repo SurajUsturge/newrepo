@@ -15,9 +15,9 @@ public class BaseClass
 	public  static WebDriver driver;
 	
 	@Given("url of page {string}")
-	public void url_of_page(String url) {
+	public void url_of_page(String url) 
+	{
 
-		// this file is modified
 		System.setProperty("webdriver.chrome.driver","E:\\Java Project for github practice\\Parameterised_cucumber\\driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(url);
