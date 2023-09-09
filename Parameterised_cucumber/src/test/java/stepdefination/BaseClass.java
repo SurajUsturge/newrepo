@@ -17,7 +17,6 @@ public class BaseClass
 	@Given("url of page {string}")
 	public void url_of_page(String url) 
 	{
-		// DATA IS MODIFIED
 		System.setProperty("webdriver.chrome.driver","E:\\Java Project for github practice\\Parameterised_cucumber\\driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(url);
@@ -40,7 +39,8 @@ public class BaseClass
 	}
 
 	@Then("user login successfully")
-	public void user_login_successfully() {
+	public void user_login_successfully() 
+	{
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 
