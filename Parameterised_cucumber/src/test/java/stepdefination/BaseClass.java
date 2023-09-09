@@ -32,7 +32,8 @@ public class BaseClass
 	}
 
 	@When("user enter password {string}")
-	public void user_enter_password(String password) {
+	public void user_enter_password(String password) 
+	{
 		driver.findElement(By.xpath("//input[@name='password']")).click();
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 	}
