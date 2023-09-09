@@ -33,7 +33,6 @@ public class BaseClass
 	public void user_enter_password(String password) {
 		driver.findElement(By.xpath("//input[@name='password']")).click();
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
-
 	}
 
 	@Then("user login successfully")
