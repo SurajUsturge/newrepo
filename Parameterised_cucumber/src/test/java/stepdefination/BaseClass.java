@@ -25,7 +25,8 @@ public class BaseClass
 	}
 
 	@When("user enter username {string}")
-	public void user_enter_username(String username) {
+	public void user_enter_username(String username) 
+	{
 		driver.findElement(By.xpath("//input[@name='username']")).click();
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys(username);
 	}
