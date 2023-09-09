@@ -1,5 +1,6 @@
 package stepdefination;
 
-public class Testing {
+public class New_class 
+{
 
 }
