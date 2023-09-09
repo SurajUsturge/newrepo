@@ -39,8 +39,6 @@ public class BaseClass
 	@Then("user login successfully")
 	public void user_login_successfully() {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-
-
 	}
 
 }
