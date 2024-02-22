@@ -25,7 +25,7 @@ public void url_of_site(String url) {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 }
-@When("user enter username as {string}")
+@When("user enter username  this is new editing as {string}")
 public void user_enter_username_as(String username) {
  
 		driver.findElement(By.xpath("//input[@name='username']")).click();
