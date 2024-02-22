@@ -16,7 +16,7 @@ public class HomePage_Module
 
 
 
-@Given("url of site {string}")
+@Given("url of site this new file added line added {string}")
 public void url_of_site(String url) {
   
 		System.setProperty("webdriver.chrome.driver","E:\\Java Project for github practice - Copy\\Parameterised_cucumber2\\driver\\chromedriver.exe");
