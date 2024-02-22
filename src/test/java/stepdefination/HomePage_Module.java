@@ -39,8 +39,8 @@ public void user_enter_password_as(String password) {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 
+		//this is new line added
 }
-
 	
 @Then("then select profile option")
 public void then_select_profile_option() 
