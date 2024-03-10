@@ -17,7 +17,7 @@ public class Register_user
 {
 	public static WebDriver driver;
 	
-//	new code comment added
+//	new code comment added with name details
 	@Given("launch browser and open app")
 	public void launch_browser_and_open_app() 
 	{
